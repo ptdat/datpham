@@ -1,0 +1,781 @@
+{
+  "meta": {
+    "name": "Pham Thanh Dat",
+    "githubUser": "your-username",
+    "defaultLang": "en",
+    "themeColor": "#7c3aed",
+    "updated": "2026-06"
+  },
+  "profile": {
+    "name": "Pham Thanh Dat",
+    "initials": "PD",
+    "title": {
+      "en": "Unity Developer & Game Lead",
+      "vi": "Lập trình viên Unity & Trưởng nhóm Game"
+    },
+    "tagline": {
+      "en": "Building mobile games from concept to launch since 2014.",
+      "vi": "Xây dựng game mobile từ ý tưởng đến phát hành từ năm 2014."
+    },
+    "location": {
+      "en": "Ho Chi Minh City, Vietnam",
+      "vi": "TP. Hồ Chí Minh, Việt Nam"
+    },
+    "summary": {
+      "en": "Unity developer passionate about games since childhood, working with Unity since 2014. I have shipped many projects of all sizes, owning the full cycle from concept to release on the App Store and Google Play. I love building alongside teammates who share the same passion, and I work extensively with AI tools (Claude as my primary) to ship faster.",
+      "vi": "Lập trình viên Unity, đam mê game từ nhỏ và gắn bó với Unity từ năm 2014. Mình đã tham gia nhiều dự án lớn nhỏ, đảm nhận trọn vẹn quy trình từ ý tưởng đến phát hành trên App Store và Google Play. Mình thích làm việc cùng những đồng đội chung đam mê, và sử dụng nhiều công cụ AI (Claude là chính) để tăng tốc phát triển."
+    },
+    "education": {
+      "en": "B.Sc. in Information Technology — Binh Duong University",
+      "vi": "Cử nhân Công nghệ Thông tin — Đại học Bình Dương"
+    }
+  },
+  "stats": [
+    {
+      "value": "12+",
+      "label": {
+        "en": "Years with Unity",
+        "vi": "Năm với Unity"
+      }
+    },
+    {
+      "value": "20+",
+      "label": {
+        "en": "Titles shipped",
+        "vi": "Game đã phát hành"
+      }
+    },
+    {
+      "value": "4",
+      "label": {
+        "en": "Platforms",
+        "vi": "Nền tảng"
+      }
+    },
+    {
+      "value": "7",
+      "label": {
+        "en": "Companies",
+        "vi": "Công ty đã làm"
+      }
+    }
+  ],
+  "contact": {
+    "email": "ptd.datpham@gmail.com",
+    "phone": "0377.679.796",
+    "links": [
+      {
+        "type": "linkedin",
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/dat-pham"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/your-username"
+      },
+      {
+        "type": "email",
+        "label": "Email",
+        "url": "mailto:ptd.datpham@gmail.com"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "category": {
+        "en": "Programming",
+        "vi": "Ngôn ngữ lập trình"
+      },
+      "items": [
+        "C#",
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "Swift",
+        "Objective-C"
+      ]
+    },
+    {
+      "category": {
+        "en": "Game Engines",
+        "vi": "Game Engine"
+      },
+      "items": [
+        "Unity",
+        "Cocos Creator"
+      ]
+    },
+    {
+      "category": {
+        "en": "Platforms",
+        "vi": "Nền tảng"
+      },
+      "items": [
+        "iOS",
+        "Android",
+        "WebGL",
+        "PC / Standalone"
+      ]
+    },
+    {
+      "category": {
+        "en": "SDKs & Tools",
+        "vi": "SDK & Công cụ"
+      },
+      "items": [
+        "Firebase",
+        "AdMob Mediation",
+        "AppLovin",
+        "Chartboost",
+        "Mintegral",
+        "Spine",
+        "Addressables",
+        "Sentry",
+        "Adjust",
+        "AppsFlyer",
+        "Unity IAP"
+      ]
+    },
+    {
+      "category": {
+        "en": "Source Control",
+        "vi": "Quản lý mã nguồn"
+      },
+      "items": [
+        "GitHub",
+        "GitLab",
+        "Bitbucket",
+        "SVN"
+      ]
+    },
+    {
+      "category": {
+        "en": "AI Tools",
+        "vi": "Công cụ AI"
+      },
+      "items": [
+        "Claude",
+        "GitHub Copilot",
+        "Codex",
+        "Antigravity"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": {
+        "en": "Unity Lead",
+        "vi": "Trưởng nhóm Unity"
+      },
+      "company": "Element6",
+      "period": "01/2024 – 01/2026",
+      "current": true,
+      "summary": {
+        "en": "Led game projects from initial idea to final product, with heavy use of AI tools (Copilot, Antigravity, Codex, Claude — Claude as the primary tool).",
+        "vi": "Dẫn dắt các dự án game từ ý tưởng ban đầu đến sản phẩm hoàn thiện, ứng dụng mạnh các công cụ AI (Copilot, Antigravity, Codex, Claude — Claude là công cụ chính)."
+      },
+      "highlights": [
+        {
+          "en": "Leading Wanderland: Angel Hunters RPG — read the game doc, planned tasks & estimates, built the core structure (UI system, login, Spine animation, data config, API).",
+          "vi": "Dẫn dắt Wanderland: Angel Hunters RPG — đọc tài liệu game, lập kế hoạch & ước lượng công việc, xây dựng cấu trúc lõi (UI, đăng nhập, Spine, cấu hình dữ liệu, API)."
+        },
+        {
+          "en": "Leading Garden Guardians — core tower-defense gameplay, skill-tree system, interactive tutorial, Addressables, Sentry ANR fix.",
+          "vi": "Dẫn dắt Garden Guardians — gameplay thủ thành lõi, hệ thống skill tree, tutorial tương tác, Addressables, xử lý ANR bằng Sentry."
+        },
+        {
+          "en": "Integrated ads mediation (AdMob, AppLovin, Chartboost, Mintegral) and the full Firebase suite (Analytics, Crashlytics, FCM, Remote Config).",
+          "vi": "Tích hợp ads mediation (AdMob, AppLovin, Chartboost, Mintegral) và bộ Firebase đầy đủ (Analytics, Crashlytics, FCM, Remote Config)."
+        },
+        {
+          "en": "Built a custom iOS Ads Permission plugin; collaborated directly with CTO, COO, Backend & Creative; mentored interns and new members.",
+          "vi": "Tự viết plugin Ads Permission cho iOS; làm việc trực tiếp với CTO, COO, Backend & Creative; đào tạo thực tập sinh và thành viên mới."
+        }
+      ]
+    },
+    {
+      "role": {
+        "en": "Unity Lead",
+        "vi": "Trưởng nhóm Unity"
+      },
+      "company": "AllgrowLabo",
+      "period": "06/2022 – 12/2023",
+      "current": false,
+      "summary": {
+        "en": "Built an animal recognition & detection system for a zoo in Japan, letting children identify nearby animals during their visit and collect them into a virtual 3D zoo.",
+        "vi": "Xây dựng hệ thống nhận diện động vật cho một sở thú tại Nhật Bản, giúp trẻ em nhận biết các loài vật xung quanh khi tham quan và sưu tập chúng vào sở thú 3D ảo."
+      },
+      "highlights": [
+        {
+          "en": "Designed the zoo mechanic using iBeacon devices to locate animals; handled Bluetooth & location permission flows.",
+          "vi": "Thiết kế cơ chế sở thú dùng iBeacon để định vị động vật; xử lý luồng cấp quyền Bluetooth & vị trí."
+        },
+        {
+          "en": "Created the iOS Parent Gate submission for the Kids category and published to the App Store / Play Store.",
+          "vi": "Tạo Parent Gate cho iOS thuộc nhóm Kids và phát hành lên App Store / Play Store."
+        }
+      ]
+    },
+    {
+      "role": {
+        "en": "Senior Unity Developer",
+        "vi": "Lập trình viên Unity cấp cao"
+      },
+      "company": "GNT Vietnam",
+      "period": "01/2021 – 12/2021",
+      "current": false,
+      "summary": {
+        "en": "Built gesture and body-movement games with the Moff Band wearable (in partnership with a Japanese company), turning motions like slashing and basketball throws into gameplay.",
+        "vi": "Phát triển game nhận diện cử chỉ và chuyển động cơ thể với thiết bị đeo Moff Band (hợp tác cùng công ty Nhật), biến các động tác như chém hay ném bóng rổ thành cơ chế chơi."
+      },
+      "highlights": [
+        {
+          "en": "Created Endless Run 3D, a 3D adventure game, a MIDI-based rhythm game and 2D games.",
+          "vi": "Tạo Endless Run 3D, game phiêu lưu 3D, game nhịp điệu từ file MIDI và các game 2D."
+        },
+        {
+          "en": "Integrated Polar OH and Moff Band devices and built Unity SDK support per the partner's requirements.",
+          "vi": "Tích hợp thiết bị Polar OH và Moff Band, xây dựng hỗ trợ SDK Unity theo yêu cầu đối tác."
+        }
+      ]
+    },
+    {
+      "role": {
+        "en": "Unity Lead",
+        "vi": "Trưởng nhóm Unity"
+      },
+      "company": "Taggle Singapore",
+      "period": "02/2019 – 12/2020",
+      "current": false,
+      "summary": {
+        "en": "Built a platform connecting doctors and patients for Singapore's hospital system. Patients took home health measurements (SpO₂, blood pressure, glucose) sent via Bluetooth to a Unity app for analysis and reporting.",
+        "vi": "Xây dựng nền tảng kết nối bác sĩ và bệnh nhân cho hệ thống bệnh viện Singapore. Bệnh nhân đo các chỉ số tại nhà (SpO₂, huyết áp, đường huyết) gửi qua Bluetooth tới ứng dụng Unity để phân tích và báo cáo."
+      },
+      "highlights": [
+        {
+          "en": "Built AR experiences with ARFoundation & Mapbox, plus plugins for HealthKit / Google Fit and BLE health devices.",
+          "vi": "Xây dựng trải nghiệm AR với ARFoundation & Mapbox, cùng plugin cho HealthKit / Google Fit và thiết bị y tế BLE."
+        },
+        {
+          "en": "Created an anti-cheat plugin and integrated a video-call SDK for in-app doctor consultations.",
+          "vi": "Tạo plugin chống gian lận và tích hợp SDK gọi video để tư vấn bác sĩ trong ứng dụng."
+        }
+      ]
+    },
+    {
+      "role": {
+        "en": "Unity Lead",
+        "vi": "Trưởng nhóm Unity"
+      },
+      "company": "NHN Vietnam",
+      "period": "01/2017 – 08/2018",
+      "current": false,
+      "summary": {
+        "en": "Developed multiplayer online casino games and was promoted to Unity Lead based on performance.",
+        "vi": "Phát triển các game casino trực tuyến nhiều người chơi và được thăng chức Trưởng nhóm Unity dựa trên hiệu quả công việc."
+      },
+      "highlights": [
+        {
+          "en": "Worked on Chess, Xiangqi, Tienlen, Xito, Phom and Maubinh online with socket networking.",
+          "vi": "Phát triển Cờ tướng, Cờ vua, Tiến lên, Xì tố, Phỏm và Mậu binh online với kết nối socket."
+        },
+        {
+          "en": "Built for iOS, Android, WebGL and PC; added analytics, logs and crash reporting; wrote native plugins.",
+          "vi": "Build cho iOS, Android, WebGL và PC; thêm analytics, log và báo cáo lỗi; viết plugin native."
+        }
+      ]
+    },
+    {
+      "role": {
+        "en": "Unity Developer",
+        "vi": "Lập trình viên Unity"
+      },
+      "company": "Skoolbo",
+      "period": "08/2015 – 12/2016",
+      "current": false,
+      "summary": {
+        "en": "Developed and upgraded an interactive learning system for elementary students in Australia and New Zealand, integrated into classroom teaching.",
+        "vi": "Phát triển và nâng cấp hệ thống học tập tương tác cho học sinh tiểu học tại Úc và New Zealand, tích hợp vào giảng dạy trên lớp."
+      },
+      "highlights": [
+        {
+          "en": "Built games from scratch (storyboards, plans, scripts) and created 2D & 3D animated characters.",
+          "vi": "Xây dựng game từ đầu (storyboard, kế hoạch, kịch bản) và tạo nhân vật hoạt hình 2D & 3D."
+        },
+        {
+          "en": "Upgraded the project from Unity 3.5 to Unity 5 and wrote Unity–Android/iOS plugins.",
+          "vi": "Nâng cấp dự án từ Unity 3.5 lên Unity 5 và viết plugin Unity–Android/iOS."
+        }
+      ]
+    },
+    {
+      "role": {
+        "en": "Unity Developer",
+        "vi": "Lập trình viên Unity"
+      },
+      "company": "Vitalify Asia",
+      "period": "12/2013 – 02/2015",
+      "current": false,
+      "summary": {
+        "en": "Worked on coin games, card games, mockup games and early AR experiences.",
+        "vi": "Làm việc với game xèng, game bài, game mockup và các trải nghiệm AR ban đầu."
+      },
+      "highlights": [
+        {
+          "en": "Created 2D & 3D animated characters and built Unity–Android/iOS plugins.",
+          "vi": "Tạo nhân vật hoạt hình 2D & 3D và xây dựng plugin Unity–Android/iOS."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Wanderland: Angel Hunters RPG",
+      "featured": true,
+      "role": {
+        "en": "Unity Lead",
+        "vi": "Trưởng nhóm Unity"
+      },
+      "company": "Element6",
+      "year": "2024 – present",
+      "type": {
+        "en": "Turn-based RPG",
+        "vi": "Nhập vai theo lượt"
+      },
+      "description": {
+        "en": "Play as a hero and battle enemies to rescue the world. I lead this project — building the UI system, Spine animation, data config, ads mediation and the full Firebase suite (incl. Adjust & AppsFlyer), Unity IAP (upgraded 4.13.2 → 5.0.4), mini-games (mining, blacksmith), tutorial logic, marketing event tracking and build-size optimization.",
+        "vi": "Hóa thân thành anh hùng và chiến đấu với kẻ thù để giải cứu thế giới. Mình dẫn dắt dự án này — xây dựng hệ thống UI, Spine animation, cấu hình dữ liệu, ads mediation và bộ Firebase đầy đủ (gồm Adjust & AppsFlyer), Unity IAP (nâng cấp 4.13.2 → 5.0.4), mini-game (đào mỏ, rèn), logic tutorial, theo dõi sự kiện marketing và tối ưu dung lượng build."
+      },
+      "tags": [
+        "Unity",
+        "C#",
+        "Spine",
+        "Firebase",
+        "IAP",
+        "RPG"
+      ],
+      "images": [
+        "assets/img/wanderland-1.jpg",
+        "assets/img/wanderland-2.jpg",
+        "assets/img/wanderland-3.jpg",
+        "assets/img/wanderland-4.jpg",
+        "assets/img/wanderland-5.jpg"
+      ],
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://wanderland.app/"
+        },
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/us/app/wanderland-angel-hunters-rpg/id6742121766"
+        },
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=tech.element6.rpg"
+        }
+      ]
+    },
+    {
+      "name": "Garden Guardians",
+      "featured": true,
+      "role": {
+        "en": "Unity Lead",
+        "vi": "Trưởng nhóm Unity"
+      },
+      "company": "Element6",
+      "year": "2024 – present",
+      "type": {
+        "en": "Tower Defense",
+        "vi": "Thủ thành"
+      },
+      "description": {
+        "en": "An insect-hero tower defense — fight dark enemies and rescue the family. I built the core gameplay (level maps, tower deployment, power-ups), the skill-tree system, an interactive tutorial, Spine animation for towers/enemies/bosses, Sentry analytics (with an ANR fix), Addressables asset delivery, IAP, ads mediation and the full Firebase suite.",
+        "vi": "Game thủ thành với các anh hùng côn trùng — chiến đấu với kẻ thù bóng tối để giải cứu gia đình. Mình xây dựng gameplay lõi (bản đồ màn chơi, đặt trụ, power-up), hệ thống skill tree, tutorial tương tác, Spine cho trụ/quái/boss, analytics Sentry (kèm xử lý ANR), tải tài nguyên bằng Addressables, IAP, ads mediation và bộ Firebase đầy đủ."
+      },
+      "tags": [
+        "Unity",
+        "C#",
+        "Tower Defense",
+        "Spine",
+        "Addressables",
+        "Sentry"
+      ],
+      "images": [
+        "assets/img/garden-1.jpg",
+        "assets/img/garden-2.jpg",
+        "assets/img/garden-3.jpg",
+        "assets/img/garden-4.jpg"
+      ],
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.gardenguardians.app/"
+        },
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/us/app/garden-guardians-td/id6476959155"
+        },
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=tech.element6.gardenguardians"
+        },
+        {
+          "label": "Trailer",
+          "url": "https://youtu.be/3T3Sj-fpAo0"
+        }
+      ]
+    },
+    {
+      "name": "Pop Clover",
+      "featured": false,
+      "role": {
+        "en": "Unity Developer",
+        "vi": "Lập trình viên Unity"
+      },
+      "company": "Element6",
+      "year": "2024",
+      "type": {
+        "en": "Bubble Shooter",
+        "vi": "Bắn bóng"
+      },
+      "description": {
+        "en": "Supported new features: Google Ads mediation, AppLovin SDK and Firebase (Analytics, Crashlytics, Remote Config). Implemented combo logic, one-hand & two-hand mission modes and the result-screen UI.",
+        "vi": "Hỗ trợ các tính năng mới: Google Ads mediation, AppLovin SDK và Firebase (Analytics, Crashlytics, Remote Config). Triển khai logic combo, chế độ nhiệm vụ một tay & hai tay và UI màn hình kết quả."
+      },
+      "tags": [
+        "Unity",
+        "Puzzle",
+        "Firebase",
+        "Ads"
+      ],
+      "images": [
+        "assets/img/popclover-1.jpg",
+        "assets/img/popclover-2.jpg",
+        "assets/img/popclover-3.jpg"
+      ],
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://element6.tech/pop-clover/"
+        },
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/us/app/pop-clover/id6475574492"
+        },
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=tech.element6.bubblepop"
+        }
+      ]
+    },
+    {
+      "name": "Parallel Zoo",
+      "featured": false,
+      "role": {
+        "en": "Unity Lead",
+        "vi": "Trưởng nhóm Unity"
+      },
+      "company": "AllgrowLabo",
+      "year": "2022 – 2023",
+      "type": {
+        "en": "Edutainment · iBeacon",
+        "vi": "Giáo dục · iBeacon"
+      },
+      "description": {
+        "en": "An app for a zoo in Japan. Visiting children use iBeacon to catch nearby animals and build their own virtual 3D zoo, exploring each species' habits, diet and habitat. I designed the game flow & logic and handled Bluetooth/location permissions and the iOS Parent Gate for the Kids category.",
+        "vi": "Ứng dụng cho một sở thú tại Nhật Bản. Trẻ em tham quan dùng iBeacon để bắt các con vật xung quanh và xây sở thú 3D của riêng mình, khám phá tập tính, thức ăn và môi trường sống của từng loài. Mình thiết kế luồng & logic game, xử lý quyền Bluetooth/vị trí và Parent Gate iOS cho nhóm Kids."
+      },
+      "tags": [
+        "Unity",
+        "iBeacon",
+        "Kids",
+        "Japan"
+      ],
+      "images": [
+        "assets/img/zoo-1.jpg",
+        "assets/img/zoo-2.jpg",
+        "assets/img/zoo-3.jpg"
+      ],
+      "links": []
+    },
+    {
+      "name": "Boomber Party",
+      "featured": false,
+      "role": {
+        "en": "Senior Developer",
+        "vi": "Lập trình viên cấp cao"
+      },
+      "company": "",
+      "year": "",
+      "type": {
+        "en": "MOBA · Party",
+        "vi": "MOBA · Party"
+      },
+      "description": {
+        "en": "A bomb party game for the Brazilian and South American markets — up to 4 players together, or versus enemies and bosses with a level system. I implemented game logic, UI and API, used Addressables and sockets, and built for Android and PC.",
+        "vi": "Game đặt bom cho thị trường Brazil và Nam Mỹ — tối đa 4 người chơi cùng nhau, hoặc đấu với quái và boss theo hệ thống màn chơi. Mình triển khai logic game, UI và API, dùng Addressables và socket, build cho Android và PC."
+      },
+      "tags": [
+        "Unity",
+        "MOBA",
+        "Sockets",
+        "Addressables"
+      ],
+      "images": [
+        "assets/img/boomber-1.jpg",
+        "assets/img/boomber-2.jpg"
+      ],
+      "links": []
+    },
+    {
+      "name": "Orbitau",
+      "featured": false,
+      "role": {
+        "en": "Senior Developer",
+        "vi": "Lập trình viên cấp cao"
+      },
+      "company": "",
+      "year": "",
+      "type": {
+        "en": "Turn-based · WebGL",
+        "vi": "Theo lượt · WebGL"
+      },
+      "description": {
+        "en": "A turn-based game where players battle enemies and bosses through a level system. I implemented the game logic, UI and API, used Addressables, and shipped it on the WebGL platform.",
+        "vi": "Game theo lượt, người chơi đối đầu với quái và boss qua hệ thống màn chơi. Mình triển khai logic game, UI và API, dùng Addressables và phát hành trên nền tảng WebGL."
+      },
+      "tags": [
+        "Unity",
+        "WebGL",
+        "Turn-based"
+      ],
+      "images": [
+        "assets/img/orbitau-1.jpg",
+        "assets/img/orbitau-2.jpg"
+      ],
+      "links": []
+    },
+    {
+      "name": "Taggle Health",
+      "featured": false,
+      "role": {
+        "en": "Unity Lead",
+        "vi": "Trưởng nhóm Unity"
+      },
+      "company": "Taggle Singapore",
+      "year": "2019 – 2020",
+      "type": {
+        "en": "Healthcare App",
+        "vi": "Ứng dụng Y tế"
+      },
+      "description": {
+        "en": "An app helping doctors and patients in Singapore communicate — view prescriptions, in-app video calls and mini-games. I built a BLE plugin to collect health data (heart rate, blood glucose), a HealthKit / Google Fit plugin, a security plugin to prevent data hacking, and integrated a video SDK and Firebase.",
+        "vi": "Ứng dụng giúp bác sĩ và bệnh nhân ở Singapore giao tiếp — xem đơn thuốc, gọi video trong app và mini-game. Mình xây dựng plugin BLE để thu thập dữ liệu sức khỏe (nhịp tim, đường huyết), plugin HealthKit / Google Fit, plugin bảo mật chống tấn công dữ liệu, tích hợp SDK video và Firebase."
+      },
+      "tags": [
+        "Unity",
+        "Healthcare",
+        "BLE",
+        "AR"
+      ],
+      "images": [
+        "assets/img/taggle-1.jpg"
+      ],
+      "links": []
+    },
+    {
+      "name": "Net2e — Casino",
+      "featured": false,
+      "role": {
+        "en": "Unity Lead",
+        "vi": "Trưởng nhóm Unity"
+      },
+      "company": "NHN Vietnam",
+      "year": "2017 – 2018",
+      "type": {
+        "en": "Online Casino",
+        "vi": "Casino trực tuyến"
+      },
+      "description": {
+        "en": "Built from scratch for Net2e — online casino card games including Chess, Xiangqi, Tienlen, Xito, Phom and Maubinh. Used socket communication and Asset Bundles, integrated Firebase, and built for iOS, Android, WebGL and PC.",
+        "vi": "Xây dựng từ đầu cho Net2e — các game bài casino online gồm Cờ tướng, Cờ vua, Tiến lên, Xì tố, Phỏm và Mậu binh. Dùng socket và Asset Bundle, tích hợp Firebase, build cho iOS, Android, WebGL và PC."
+      },
+      "tags": [
+        "Unity",
+        "Multiplayer",
+        "Sockets",
+        "Casino"
+      ],
+      "images": [
+        "assets/img/nhn-1.jpg",
+        "assets/img/nhn-2.jpg"
+      ],
+      "links": []
+    },
+    {
+      "name": "Skoolbo",
+      "featured": false,
+      "role": {
+        "en": "Senior Developer",
+        "vi": "Lập trình viên cấp cao"
+      },
+      "company": "Skoolbo",
+      "year": "2015 – 2016",
+      "type": {
+        "en": "EdTech",
+        "vi": "Giáo dục"
+      },
+      "description": {
+        "en": "A learning app for elementary students in Australia, New Zealand, London and China. Students learn at school or home while parents track progress and schedule extra lessons. Used Asset Bundles and PlayMaker, and upgraded the project from Unity 3.5 to Unity 5.",
+        "vi": "Ứng dụng học tập cho học sinh tiểu học ở Úc, New Zealand, London và Trung Quốc. Học sinh học ở trường hoặc ở nhà, phụ huynh theo dõi tiến độ và lên lịch học thêm. Dùng Asset Bundle và PlayMaker, nâng cấp dự án từ Unity 3.5 lên Unity 5."
+      },
+      "tags": [
+        "Unity",
+        "EdTech",
+        "Asset Bundles"
+      ],
+      "images": [
+        "assets/img/skoolbo-1.jpg"
+      ],
+      "links": []
+    },
+    {
+      "name": "ZippyShine",
+      "featured": false,
+      "role": {
+        "en": "Developer",
+        "vi": "Lập trình viên"
+      },
+      "company": "",
+      "year": "",
+      "type": {
+        "en": "Mobile Game",
+        "vi": "Game Mobile"
+      },
+      "description": {
+        "en": "An additional shipped mobile title from the portfolio.",
+        "vi": "Một tựa game mobile đã phát hành trong portfolio."
+      },
+      "tags": [
+        "Unity",
+        "Mobile"
+      ],
+      "images": [
+        "assets/img/zippyshine-1.jpg"
+      ],
+      "links": []
+    },
+    {
+      "name": "Ruggerland",
+      "featured": false,
+      "role": {
+        "en": "Developer",
+        "vi": "Lập trình viên"
+      },
+      "company": "",
+      "year": "",
+      "type": {
+        "en": "Mobile Game",
+        "vi": "Game Mobile"
+      },
+      "description": {
+        "en": "An additional shipped mobile title from the portfolio.",
+        "vi": "Một tựa game mobile đã phát hành trong portfolio."
+      },
+      "tags": [
+        "Unity",
+        "Mobile"
+      ],
+      "images": [
+        "assets/img/ruggerland-1.jpg"
+      ],
+      "links": []
+    }
+  ],
+  "ui": {
+    "nav": {
+      "about": {
+        "en": "About",
+        "vi": "Giới thiệu"
+      },
+      "skills": {
+        "en": "Tech Stack",
+        "vi": "Tech Stack"
+      },
+      "experience": {
+        "en": "Experience",
+        "vi": "Kinh nghiệm"
+      },
+      "projects": {
+        "en": "Projects",
+        "vi": "Dự án"
+      },
+      "contact": {
+        "en": "Contact",
+        "vi": "Liên hệ"
+      }
+    },
+    "sections": {
+      "aboutTitle": {
+        "en": "About me",
+        "vi": "Về mình"
+      },
+      "skillsTitle": {
+        "en": "Tech Stack",
+        "vi": "Tech Stack"
+      },
+      "experienceTitle": {
+        "en": "Work Experience",
+        "vi": "Kinh nghiệm làm việc"
+      },
+      "projectsTitle": {
+        "en": "Portfolio",
+        "vi": "Dự án tiêu biểu"
+      },
+      "featuredTitle": {
+        "en": "Featured Projects",
+        "vi": "Dự án nổi bật"
+      },
+      "moreTitle": {
+        "en": "More Projects",
+        "vi": "Các dự án khác"
+      },
+      "contactTitle": {
+        "en": "Get in touch",
+        "vi": "Liên hệ với mình"
+      },
+      "contactSubtitle": {
+        "en": "Open to collaborating on great games. Let's talk!",
+        "vi": "Luôn sẵn sàng hợp tác cho những dự án game thú vị. Cùng trao đổi nhé!"
+      }
+    },
+    "labels": {
+      "viewProject": {
+        "en": "View",
+        "vi": "Xem"
+      },
+      "present": {
+        "en": "Present",
+        "vi": "Hiện tại"
+      },
+      "education": {
+        "en": "Education",
+        "vi": "Học vấn"
+      },
+      "downloadCV": {
+        "en": "Download CV",
+        "vi": "Tải CV"
+      },
+      "scrollHint": {
+        "en": "Scroll to explore",
+        "vi": "Cuộn để khám phá"
+      },
+      "footerNote": {
+        "en": "Built with data.json — easy to edit & extend.",
+        "vi": "Xây dựng từ data.json — dễ chỉnh sửa & mở rộng."
+      }
+    }
+  }
+}
