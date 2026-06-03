@@ -209,6 +209,94 @@
     .skill-grid,.more-grid{grid-template-columns:1fr}
     .pf-body,.card{padding:22px}
   }
+
+  /* ---------- SIDE TOOLS (Share / Print) ---------- */
+  .side-tools{position:fixed;right:18px;top:50%;transform:translateY(-50%);z-index:60;
+    display:flex;flex-direction:column;gap:10px;padding:14px 12px 12px;border-radius:18px;
+    background:linear-gradient(160deg,rgba(167,139,250,.20),rgba(244,114,182,.12)),var(--card2);
+    border:1px solid rgba(167,139,250,.55);
+    box-shadow:0 0 0 1px rgba(167,139,250,.14),0 18px 44px -16px rgba(167,139,250,.65);
+    backdrop-filter:blur(8px)}
+  .side-tools .st-title{font-family:'Fredoka';font-weight:600;font-size:11px;letter-spacing:1.5px;
+    text-transform:uppercase;color:var(--violet);text-align:center;margin-bottom:2px}
+  .stool{display:flex;align-items:center;gap:9px;width:100%;font-family:'Fredoka';font-weight:600;
+    font-size:14px;padding:11px 16px;border-radius:12px;cursor:pointer;border:1px solid var(--line);
+    color:var(--ink);background:rgba(255,255,255,.05);transition:.18s;white-space:nowrap}
+  .stool svg{flex:0 0 auto}
+  .stool:hover{transform:translateX(-3px);border-color:transparent;color:#fff;
+    background:linear-gradient(135deg,var(--violet),var(--pink));box-shadow:0 0 24px -6px var(--pink)}
+  .stool.loading{opacity:.7;pointer-events:none}
+
+  /* Toast */
+  .toast-wrap{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);z-index:120;
+    display:flex;flex-direction:column;gap:8px;align-items:center;pointer-events:none}
+  .toast{background:var(--card2);color:var(--ink);border:1px solid var(--violet);font-weight:700;
+    font-size:14px;padding:11px 18px;border-radius:999px;box-shadow:var(--shadow);max-width:90vw;
+    text-align:center;opacity:0;transform:translateY(10px);transition:opacity .25s ease,transform .25s ease}
+  .toast.show{opacity:1;transform:none}
+
+  @media(max-width:620px){
+    .side-tools{top:auto;bottom:16px;right:14px;transform:none;flex-direction:row;align-items:center;
+      padding:8px;gap:8px}
+    .side-tools .st-title{display:none}
+    .stool{padding:10px 13px;font-size:13px}
+    .stool:hover{transform:none}
+  }
+
+  /* ---------- PRINT (light, print-optimized — clean, selectable text) ---------- */
+  @media print{
+    @page{margin:14mm}
+    html,body{background:#fff!important;color:#1a1a2e!important}
+    .wrap{padding:0!important;max-width:none!important}
+    .sec{padding:22px 0!important}
+    .hero{padding:14px 0 22px!important}
+    *{animation:none!important;transition:none!important;box-shadow:none!important}
+
+    /* hide chrome & decoration */
+    #sideTools,.toast-wrap,.nav-links,.lang,.menu-toggle,.blob,#lightbox,
+    .hero .cta,.chip,.avatar::after,.pf-thumbs,.eyebrow .pulse{display:none!important}
+    header.nav{position:static!important;background:#fff!important;border-bottom:1px solid #e3e3ee!important;backdrop-filter:none!important}
+    .reveal{opacity:1!important;transform:none!important}
+
+    /* text -> dark on white */
+    body,.hero .role,.about p,.tl-card .sum,.pf-body p,.pcard p,.info-card .row,
+    .skill-card h3,.tl-top h3,.pf-body h3,.pcard h3,h1,h2,h3,.contact-card h2,.contact-card p{color:#1a1a2e!important}
+    .hero .tagline,.pf-meta,.stat .lbl,.info-card .row small,.tl-card li,
+    .pcard .pc-type,.tl-top .per,footer{color:#555!important}
+
+    /* violet accents (foreground text always prints) */
+    .grad,.stat .num,.tl-top .co,.sec-head .kicker,.brand,.eyebrow{
+      -webkit-text-fill-color:#6d28d9!important;color:#6d28d9!important;background:none!important}
+
+    /* cards -> white w/ light border */
+    .card,.skill-card,.tl-card,.stat,.proj-feat,.pcard,.eyebrow,.contact-card{
+      background:#fff!important;border:1px solid #e3e3ee!important}
+    .contact{background:#fff!important}
+    .info-card .row{border-color:#e3e3ee!important}
+    .timeline::before{background:#e3e3ee!important}
+    .tl-item::before{background:#fff!important;border-color:#6d28d9!important}
+
+    /* links + pills readable on white */
+    .lnk,.lnk.store,.clink{background:#fff!important;border:1px solid #ccc!important;color:#1a1a2e!important}
+    .tl-top .per{background:#fff!important;border:1px solid #e3e3ee!important}
+    .pf-type{border:1px solid #e3e3ee!important}
+    .tag{background:#fff!important;color:#5b21b6!important;border:1px solid #d6c8f5!important}
+
+    /* keep small colour accents (force their backgrounds to print) */
+    .avatar,.brand .dot,.skill-card .swatch,.sec-head .bar,.info-card .ic,.badge-now{
+      -webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+    .avatar{width:150px!important;height:150px!important;font-size:62px!important;border-radius:26px!important}
+
+    /* image sizing + page-break control */
+    .pf-media,.pf-media .main{min-height:0!important}
+    .pf-media .main{max-height:300px!important}
+    .pcard .thumb{aspect-ratio:auto!important}
+    .pcard .thumb img{max-height:220px!important}
+    section{break-inside:auto}
+    .skill-card,.tl-item,.pcard,.proj-feat,.stat,.card{break-inside:avoid}
+    .sec-head,h1,h2,h3{break-after:avoid}
+    img{break-inside:avoid}
+  }
 </style>
 </head>
 <body>
@@ -289,6 +377,18 @@
 
 <footer><div class="wrap" id="footerNote"></div></footer>
 
+<aside class="side-tools" id="sideTools" aria-label="Tools">
+  <div class="st-title" id="toolsTitle">Tools</div>
+  <button class="stool" id="btnShare" type="button" title="Copy page link">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>
+    <span id="btnShareLbl">Share</span>
+  </button>
+  <button class="stool" id="btnPrint" type="button" title="Print / Save page as PDF">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6"/><path d="M6 18H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="7" rx="1"/></svg>
+    <span id="btnPrintLbl">Print</span>
+  </button>
+</aside>
+
 <div class="lb" id="lightbox">
   <button class="lb-close" id="lbClose">&times;</button>
   <button class="lb-btn lb-prev" id="lbPrev">&#8249;</button>
@@ -332,7 +432,7 @@ function render(){
 
   // hero CTAs
   const cta=document.getElementById('heroCta');cta.innerHTML='';
-  if(d.contact.email){const b=el('a','btn btn-primary',ICONS.email+'<span>'+(LANG==='vi'?'Liên hệ':'Contact me')+'</span>');b.href='mailto:'+d.contact.email;cta.appendChild(b);}
+  if(d.contact.email){const b=el('a','btn btn-primary',ICONS.email+'<span>'+(LANG==='vi'?'Liên hệ':'Contact me')+'</span>');bindMail(b,d.contact.email);cta.appendChild(b);}
   (d.contact.links||[]).forEach(l=>{if(l.type==='linkedin'||l.type==='github'){const b=el('a','btn btn-ghost',(ICONS[l.type]||ICONS.web)+'<span>'+l.label+'</span>');b.href=l.url;b.target='_blank';b.rel='noopener';cta.appendChild(b);}});
   if(d.meta.cvUrl){const b=el('a','btn btn-ghost',ICONS.cap+'<span>'+t(d.ui.labels.downloadCV)+'</span>');b.href=d.meta.cvUrl;b.target='_blank';cta.appendChild(b);}
 
@@ -421,11 +521,18 @@ function render(){
 
   // contact links
   const cl=document.getElementById('contactLinks');cl.innerHTML='';
-  if(d.contact.email){const a=el('a','clink',ICONS.email+'Email');a.href='mailto:'+d.contact.email;cl.appendChild(a);}
+  if(d.contact.email){const a=el('a','clink',ICONS.email+'Email');bindMail(a,d.contact.email);cl.appendChild(a);}
   (d.contact.links||[]).forEach(l=>{if(l.type==='email')return;const a=el('a','clink',(ICONS[l.type]||ICONS.web)+l.label);a.href=l.url;a.target='_blank';a.rel='noopener';cl.appendChild(a);});
   if(d.contact.phone){const a=el('a','clink',ICONS.phone+d.contact.phone);a.href='tel:'+d.contact.phone.replace(/[^0-9+]/g,'');cl.appendChild(a);}
 
   document.getElementById('footerNote').textContent='© '+new Date().getFullYear()+' '+d.profile.name+' · '+t(d.ui.labels.footerNote);
+
+  // side tools labels (Share / Print)
+  const stt=document.getElementById('toolsTitle');if(stt)stt.textContent=LANG==='vi'?'Công cụ':'Tools';
+  const bsl=document.getElementById('btnShareLbl');if(bsl)bsl.textContent=LANG==='vi'?'Chia sẻ':'Share';
+  const bpl=document.getElementById('btnPrintLbl');if(bpl)bpl.textContent=LANG==='vi'?'In':'Print';
+  const bs=document.getElementById('btnShare');if(bs)bs.title=LANG==='vi'?'Sao chép link trang':'Copy page link';
+  const bp=document.getElementById('btnPrint');if(bp)bp.title=LANG==='vi'?'In / Lưu trang thành PDF':'Print / Save page as PDF';
 
   setupReveal();
 }
@@ -444,6 +551,62 @@ function setupReveal(){
   document.querySelectorAll('.reveal').forEach(n=>io.observe(n));
 }
 
+/* ---------- Toast + Clipboard ---------- */
+function toast(msg){
+  let wrap=document.getElementById('toastWrap');
+  if(!wrap){wrap=el('div','toast-wrap');wrap.id='toastWrap';document.body.appendChild(wrap);}
+  const t=el('div','toast');t.textContent=msg;wrap.appendChild(t);
+  requestAnimationFrame(()=>t.classList.add('show'));
+  setTimeout(()=>{t.classList.remove('show');setTimeout(()=>t.remove(),320);},2600);
+}
+function fallbackCopy(text){
+  try{const ta=document.createElement('textarea');ta.value=text;ta.setAttribute('readonly','');
+    ta.style.position='fixed';ta.style.top='-1000px';ta.style.opacity='0';document.body.appendChild(ta);
+    ta.select();const ok=document.execCommand('copy');document.body.removeChild(ta);return ok;}catch(e){return false;}
+}
+function copyText(text){
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    return navigator.clipboard.writeText(text).then(()=>true).catch(()=>fallbackCopy(text));
+  }
+  return Promise.resolve(fallbackCopy(text));
+}
+function bindMail(a,email){
+  a.href='mailto:'+email;
+  a.addEventListener('click',function(){
+    copyText(email).then(ok=>{toast(ok?(LANG==='vi'?'Đã copy email: '+email:'Email copied: '+email)
+      :(LANG==='vi'?'Email: '+email:'Email: '+email));});
+  });
+}
+
+/* ---------- Share (mobile: native share sheet · desktop: copy link) ---------- */
+function isMobileDevice(){
+  if(navigator.userAgentData&&typeof navigator.userAgentData.mobile==='boolean')return navigator.userAgentData.mobile;
+  const ua=navigator.userAgent||'';
+  const iPadOS=/Macintosh/.test(ua)&&navigator.maxTouchPoints>1; // iPadOS reports a desktop UA
+  return /Android|iPhone|iPad|iPod|webOS|BlackBerry|IEMobile|Opera Mini|Mobile/i.test(ua)||iPadOS;
+}
+function copyLink(url){
+  copyText(url).then(ok=>{toast(ok?(LANG==='vi'?'Đã copy link!':'Link copied!')
+    :(LANG==='vi'?'Không copy được — '+url:'Copy failed — '+url));});
+}
+function handleShare(){
+  const url=window.location.href;
+  const title=(DATA&&DATA.profile&&DATA.profile.name)?DATA.profile.name:document.title;
+  if(isMobileDevice()&&navigator.share){
+    navigator.share({title:title,text:title,url:url}).catch(err=>{
+      if(err&&err.name==='AbortError')return; // user dismissed the sheet
+      copyLink(url);                          // any real failure → fall back to copy
+    });
+  }else{
+    copyLink(url);
+  }
+}
+
+/* ---------- Print (browser print -> clean, selectable PDF) ---------- */
+function handlePrint(){
+  try{window.print();}catch(e){console.error(e);}
+}
+
 function setLang(l){LANG=l;try{localStorage.setItem('ptd_lang',l);}catch(e){}
   document.querySelectorAll('#langToggle button').forEach(b=>b.classList.toggle('active',b.dataset.lang===l));
   if(DATA)render();}
@@ -451,6 +614,8 @@ function setLang(l){LANG=l;try{localStorage.setItem('ptd_lang',l);}catch(e){}
 function init(){
   document.querySelectorAll('#langToggle button').forEach(b=>b.onclick=()=>setLang(b.dataset.lang));
   document.getElementById('menuToggle').onclick=()=>document.getElementById('navLinks').classList.toggle('open');
+  document.getElementById('btnShare').onclick=handleShare;
+  document.getElementById('btnPrint').onclick=handlePrint;
   document.getElementById('lbClose').onclick=closeLb;
   document.getElementById('lbPrev').onclick=()=>lbStep(-1);
   document.getElementById('lbNext').onclick=()=>lbStep(1);
