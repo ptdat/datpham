@@ -72,7 +72,7 @@
       {
         "type": "github",
         "label": "GitHub",
-        "url": "https://github.com/your-username"
+        "url": "https://github.com/ptdat"
       },
       {
         "type": "email",
@@ -170,7 +170,7 @@
       },
       "company": "Element6",
       "period": "01/2024 – 01/2026",
-      "current": true,
+      "current": false,
       "summary": {
         "en": "Led game projects from initial idea to final product, with heavy use of AI tools (Copilot, Antigravity, Codex, Claude — Claude as the primary tool).",
         "vi": "Dẫn dắt các dự án game từ ý tưởng ban đầu đến sản phẩm hoàn thiện, ứng dụng mạnh các công cụ AI (Copilot, Antigravity, Codex, Claude — Claude là công cụ chính)."
